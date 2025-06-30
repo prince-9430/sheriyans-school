@@ -1,0 +1,130 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .main {
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+        display: flex;
+    }
+    
+    .main .left {
+        height: 100%;
+        width: 75%;
+    }
+    
+    .main .left .top {
+        width: 100%;
+        height: 75%;
+        background-color: #04615d;
+        position: relative;
+    }
+    
+    .main .left .top .icon {
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        background-color: #ffffff;
+    }
+    
+    .main .left .bottom {
+        width: 100%;
+        height: 25%;
+        padding: 50px 75px;
+        background-color: #121212;
+    }
+    
+    .bottom-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bottom-content .bottom-content-left {
+        height: 100%;
+        width: 45%;
+        color: aliceblue;
+    }
+    
+    .bottom-content .bottom-content-left p {
+        margin-top: 5px;
+        opacity: 0.5;
+        width: 70%;
+        height: 100%;
+        font-weight: 500;
+    }
+    
+    .bottom-content .bottom-content-right {
+        height: 100%;
+        width: 45%;
+        color: aliceblue;
+    }
+    
+    .bottom-content .bottom-content-right .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bottom-content .bottom-content-right .icon {
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .bottom-content .bottom-content-right .icon .icontext {
+        margin-left: 10px;
+    }
+    
+    .bottom-content .bottom-content-right .icon .icontext p {
+        opacity: 0.5;
+    }
+    
+    .main .right {
+        height: 100%;
+        width: 25%;
+        background-color: rgb(42, 72, 124);
+    }
+    
+    .main .right .top {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 75%;
+        padding: 70px;
+        background-color: #ffffff;
+    }
+    
+    .main .right .top .icon {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .main .right .top a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 3px;
+        margin-top: 15px;
+        text-transform: uppercase;
+    }
+    
+    .main .right .top a:nth-child(2)::before {
+        content: '-';
+    }
+    
+    .main .right .bottom {
+        width: 100%;
+        height: 25%;
+        background-color: #51115f;
+    }

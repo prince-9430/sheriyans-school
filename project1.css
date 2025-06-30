@@ -1,0 +1,98 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    .main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+    }
+    
+    .main .left {
+        height: 100%;
+        width: 75%;
+        background-color: aqua;
+    }
+    
+    .left .ltop {
+        width: 100%;
+        height: 75%;
+        background-color: #1212127f;
+    }
+    
+    .left .lbottom {
+        width: 100%;
+        height: 25%;
+        padding: 50px 50px;
+        background-color: black;
+    }
+    
+    .left .lbottom-contect {
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .lbottom-contect .lbottom-contect1 {
+        height: 100%;
+        width: 45%;
+        color: aliceblue;
+    }
+    
+    .lbottom-contect1 h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+    
+    .lbottom-contect1 p {
+        width: 70%;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    
+    .lbottom-contect .lbottom-contect2 {
+        height: 100%;
+        width: 45%;
+        color: aliceblue;
+    }
+    
+    .lbottom-contect2 .row {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    
+    .lbottom-contect2 .row .icon {
+        display: flex;
+    }
+    
+    .lbottom-contect2 .row .icon .icontext {
+        margin-left: 20px;
+    }
+    
+    .lbottom-contect2 .row .icon .icontext p {
+        opacity: 0.5;
+        font-weight: 5;
+    }
+    
+    .main .right {
+        height: 100%;
+        width: 25%;
+        background-color: rgb(26, 255, 0);
+    }
+    
+    .right .rtop {
+        width: 100%;
+        height: 75%;
+        background-color: aliceblue;
+    }
+    
+    .right .rbottom {
+        width: 100%;
+        height: 25%;
+        background-color: rgb(26, 63, 96);
+    }
